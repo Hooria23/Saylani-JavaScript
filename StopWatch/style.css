@@ -1,0 +1,56 @@
+body{
+
+    background-image: url(watch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    margin: 250px;
+
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}
+.num *{
+    margin: 5px;
+    background-color: darkgrey;
+    color: black;
+    width: 10%;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+}
+
+#start,#reset,#stop{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#start:hover{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+#stop:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+#reset:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
